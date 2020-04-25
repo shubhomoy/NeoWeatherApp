@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Cabin-Medium';
+    src: url('./Cabin/Cabin-Medium.ttf')  format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Cabin-Bold';
+    src: url('./Cabin/Cabin-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabin-SemiBold';
+    src: url('./Cabin/Cabin-SemiBold.ttf')  format('truetype');
+}
+
+.deepblue {
+    color: #3D5A80;
+}
+
+.blue {
+    color: 98C1D9;
+}
+
+.lightblue {
+    color: #E0FBFC;
+}
+
+.orange {
+    color: #EE6C4D;
+}
+
+.dark {
+    color: #293241;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    background: rgb(251, 247, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+}
+
+.tab {
+    width: 100px;
+    flex: 0 0 auto;
+}
+
+.neu {
+    background: rgb(251, 247, 255);
+    border-radius: 15px;
+    box-shadow: -5px -5px 5px #ffffff, 3px 3px 8px #9B959B50;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.neu .day {
+    color: #898989;
+    font-family: 'Cabin-Medium', Fallback, sans-serif;
+    font-size: 15px;
+}
+
+.neu .temp {
+    color: #656565;
+    font-family: 'Cabin-Bold', Fallback, sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 27px;
+}
+
+
+.neu .stat {
+    color: #898989;
+    font-family: 'Cabin-SemiBold', Fallback, sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-top: 3px;
+}
+
+.neu img {
+    height: 25px;
+    float: right;
+}
+
+.weatherTabsContainer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 20%;
+    max-height: 150px;
+}
+
+.weatherTabsContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.mainTempContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35%;
+    /* box-shadow: inset 0px 3px 10px #9B959B50; */
+}
+
+.mainTempLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 50%;
+}
+
+.mainTemp {
+    font-family: 'Cabin-Bold', Fallback, sans-serif;
+    font-size: 6rem;
+    color: #656565;
+}
+
+.mainTempText {
+    color: #898989;
+    font-family: 'Cabin-SemiBold', Fallback, sans-serif;
+    font-size: 1.3rem;
+}
+
+.mainTempRight {
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+}
+
+.mainTempRight img {
+    object-fit: cover;
+    width: 100%;
+    object-position: left top;
+    height: 100%;
+}
+
+.detailsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 45%;
 }

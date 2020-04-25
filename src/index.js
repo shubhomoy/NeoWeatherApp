@@ -1,17 +1,61 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import WeatherTab from './components/WeatherTab'
+import WeatherChart from './components/WeatherChart'
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+import sun from './images/sun.svg';
+  
+
+
+class WeatherApp extends React.Component {
+    render() {
+    return (
+        <div className="container">
+
+            <div className="mainTempContainer">
+                <div className="mainTempLeft">
+                    <div className="mainTemp">
+                        10&#176;
+                    </div>
+                    <div className="mainTempText">
+                        Clear
+                    </div>
+                </div>
+                <div className="mainTempRight">
+                    <img src={sun} />
+                </div>
+            </div>
+            
+            <div style={{paddingLeft: "20px"}}>
+                <div className="weatherTabsContainer">
+                    <WeatherTab />
+                    <WeatherTab />
+                    <WeatherTab />
+                    <WeatherTab />
+                    <WeatherTab />
+                    <WeatherTab />
+                    <WeatherTab />
+                    <WeatherTab />
+                    <div style={{padding: "10px"}}></div>
+                </div>
+            </div>
+            
+
+            <div className="detailsContainer">
+                <div className="neu">
+                    <WeatherChart />
+                </div>
+            </div>
+        </div>
+    );
+    }
+}
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <WeatherApp />,
+    document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
