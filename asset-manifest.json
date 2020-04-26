@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/NeoWeatherApp/static/css/main.fe41c289.chunk.css",
+    "main.js": "/NeoWeatherApp/static/js/main.a482e4b5.chunk.js",
+    "main.js.map": "/NeoWeatherApp/static/js/main.a482e4b5.chunk.js.map",
+    "runtime-main.js": "/NeoWeatherApp/static/js/runtime-main.54fc02c8.js",
+    "runtime-main.js.map": "/NeoWeatherApp/static/js/runtime-main.54fc02c8.js.map",
+    "static/js/2.c016eff7.chunk.js": "/NeoWeatherApp/static/js/2.c016eff7.chunk.js",
+    "static/js/2.c016eff7.chunk.js.map": "/NeoWeatherApp/static/js/2.c016eff7.chunk.js.map",
+    "index.html": "/NeoWeatherApp/index.html",
+    "precache-manifest.ab565ff1acddbd1307f7933baed28372.js": "/NeoWeatherApp/precache-manifest.ab565ff1acddbd1307f7933baed28372.js",
+    "service-worker.js": "/NeoWeatherApp/service-worker.js",
+    "static/css/main.fe41c289.chunk.css.map": "/NeoWeatherApp/static/css/main.fe41c289.chunk.css.map",
+    "static/js/2.c016eff7.chunk.js.LICENSE.txt": "/NeoWeatherApp/static/js/2.c016eff7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/NeoWeatherApp/static/media/Cabin-SemiBold.c92ed594.ttf",
+    "static/media/cloudy.svg": "/NeoWeatherApp/static/media/cloudy.cfb1e955.svg",
+    "static/media/mist.svg": "/NeoWeatherApp/static/media/mist.cb7f1d95.svg",
+    "static/media/rainy.svg": "/NeoWeatherApp/static/media/rainy.5ee170bc.svg",
+    "static/media/snow.svg": "/NeoWeatherApp/static/media/snow.20df6662.svg",
+    "static/media/sun.svg": "/NeoWeatherApp/static/media/sun.ef790a4b.svg",
+    "static/media/sunny-rainy.svg": "/NeoWeatherApp/static/media/sunny-rainy.23e71edd.svg",
+    "static/media/thunder.svg": "/NeoWeatherApp/static/media/thunder.4b969a4c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54fc02c8.js",
+    "static/js/2.c016eff7.chunk.js",
+    "static/css/main.fe41c289.chunk.css",
+    "static/js/main.a482e4b5.chunk.js"
+  ]
+}
