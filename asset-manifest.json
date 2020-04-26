@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/NeoWeatherApp/static/css/main.4964b4d8.chunk.css",
-    "main.js": "/NeoWeatherApp/static/js/main.2b75874f.chunk.js",
-    "main.js.map": "/NeoWeatherApp/static/js/main.2b75874f.chunk.js.map",
+    "main.css": "/NeoWeatherApp/static/css/main.ebf2203c.chunk.css",
+    "main.js": "/NeoWeatherApp/static/js/main.b6968f87.chunk.js",
+    "main.js.map": "/NeoWeatherApp/static/js/main.b6968f87.chunk.js.map",
     "runtime-main.js": "/NeoWeatherApp/static/js/runtime-main.54fc02c8.js",
     "runtime-main.js.map": "/NeoWeatherApp/static/js/runtime-main.54fc02c8.js.map",
-    "static/js/2.e93cca47.chunk.js": "/NeoWeatherApp/static/js/2.e93cca47.chunk.js",
-    "static/js/2.e93cca47.chunk.js.map": "/NeoWeatherApp/static/js/2.e93cca47.chunk.js.map",
+    "static/js/2.c3927c00.chunk.js": "/NeoWeatherApp/static/js/2.c3927c00.chunk.js",
+    "static/js/2.c3927c00.chunk.js.map": "/NeoWeatherApp/static/js/2.c3927c00.chunk.js.map",
     "index.html": "/NeoWeatherApp/index.html",
-    "precache-manifest.dead4642e184a35b548a072c5d3e18a2.js": "/NeoWeatherApp/precache-manifest.dead4642e184a35b548a072c5d3e18a2.js",
+    "precache-manifest.08737bad0c6adbe0110d5ac89cb6e27a.js": "/NeoWeatherApp/precache-manifest.08737bad0c6adbe0110d5ac89cb6e27a.js",
     "service-worker.js": "/NeoWeatherApp/service-worker.js",
-    "static/css/main.4964b4d8.chunk.css.map": "/NeoWeatherApp/static/css/main.4964b4d8.chunk.css.map",
-    "static/js/2.e93cca47.chunk.js.LICENSE.txt": "/NeoWeatherApp/static/js/2.e93cca47.chunk.js.LICENSE.txt",
+    "static/css/main.ebf2203c.chunk.css.map": "/NeoWeatherApp/static/css/main.ebf2203c.chunk.css.map",
+    "static/js/2.c3927c00.chunk.js.LICENSE.txt": "/NeoWeatherApp/static/js/2.c3927c00.chunk.js.LICENSE.txt",
     "static/media/index.css": "/NeoWeatherApp/static/media/Cabin-SemiBold.c92ed594.ttf",
     "static/media/Preloader_2.gif": "/NeoWeatherApp/static/media/Preloader_2.a8c98ef9.gif",
     "static/media/cloudy.svg": "/NeoWeatherApp/static/media/cloudy.cfb1e955.svg",
+    "static/media/heart.svg": "/NeoWeatherApp/static/media/heart.095cbef3.svg",
     "static/media/mist.svg": "/NeoWeatherApp/static/media/mist.cb7f1d95.svg",
     "static/media/rainy.svg": "/NeoWeatherApp/static/media/rainy.5ee170bc.svg",
     "static/media/snow.svg": "/NeoWeatherApp/static/media/snow.20df6662.svg",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54fc02c8.js",
-    "static/js/2.e93cca47.chunk.js",
-    "static/css/main.4964b4d8.chunk.css",
-    "static/js/main.2b75874f.chunk.js"
+    "static/js/2.c3927c00.chunk.js",
+    "static/css/main.ebf2203c.chunk.css",
+    "static/js/main.b6968f87.chunk.js"
   ]
 }
