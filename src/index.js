@@ -61,7 +61,7 @@ class WeatherApp extends React.Component {
                     <div className="mainTempContainer">
                         <div className="mainTempLeft">
                             <div className="mainTemp">
-                                {Math.trunc(this.state.currWeather.temp)} &#176;
+                                {Math.trunc(this.state.currWeather.temp)}&#176;
                             </div>
                             <div className="mainTempText">
                                 {this.state.currWeather.weather.length > 0 ? this.state.currWeather.weather[0].description.charAt(0).toUpperCase() + this.state.currWeather.weather[0].description.slice(1) : ""}

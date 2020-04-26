@@ -4,12 +4,17 @@ import ReactApexCharts from 'react-apexcharts'
 class WeatherChart extends React.Component {
     constructor(props) {
         super(props);
+        
+        var temperatures = this.props.series.map(forecast => Math.trunc(forecast.temp)).slice(0, 6);
+        var hours = this.props.series.map(forecast => new Date(forecast.dt * 1000)).slice(0, 6);
+
+        hours = hours.map(d => (d.getHours() + ":" + d.getMinutes()))
 
         this.state = {
         
             series: [{
                 name: "Temperature",
-                data: [23, 25, 22, 24, 27, 24]
+                data: temperatures
             }],
             options: {
                 chart: {
@@ -25,7 +30,7 @@ class WeatherChart extends React.Component {
                     enabled: false
                 },
                 stroke: {
-                    curve: 'smooth',
+                    curve: 'straight',
                     width: 3
                 },
                 markers: {
@@ -48,7 +53,7 @@ class WeatherChart extends React.Component {
                 xaxis: {
                     type: 'category',
                     show: false,
-                    categories: ['Now', '11:00', '12:00', '13:00', '14:00', '15:00'],
+                    categories: hours,
                     labels: {
                         show: true
                     }
