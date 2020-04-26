@@ -30,7 +30,7 @@ class WeatherIcon extends React.Component {
 
 
     render() {
-        if(this.state.weather.id == 800) {
+        if(this.state.weather.id === 800) {
             return(<img src={sunny} alt="Sunny"/>)
         }else{
             return(<img src={weatherArray[Math.floor(this.state.weather.id/100)]} alt="Weather Icon"/>)

@@ -2,8 +2,6 @@ import React from 'react';
 import '../index.css';
 import WeatherIcon from './WeatherIcon'
 
-import sun from '../images/sun.svg';
-
 const WEEKDAY = [
     "Sun.",
     "Mon.",
@@ -27,7 +25,7 @@ class WeatherTab extends React.Component {
     componentDidMount() {
         var forecastDate = new Date(this.state.forecast.dt * 1000);
         var today = new Date()
-        if(today.getDate() == forecastDate.getDate()) {
+        if(today.getDate() === forecastDate.getDate()) {
             this.setState({
                 day: "Today"
             })
@@ -40,7 +38,7 @@ class WeatherTab extends React.Component {
 
     render() {
     return (
-        <div className={ this.state.day == "Today" ? "neu neu-selected tab" : "neu tab"}>
+        <div className={ this.state.day === "Today" ? "neu neu-selected tab" : "neu tab"}>
             <div className="day">{this.state.day}</div>
             <div className="temp">{Math.trunc(this.state.forecast.temp.day)}&#176;</div>
             <div>

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import WeatherTab from './components/WeatherTab'
 import WeatherChart from './components/WeatherChart'
 import WeatherIcon from './components/WeatherIcon'
+import StartScreen from './components/StartScreen'
 import './index.css';
 
 const appid = "c3e7f513320bbb800b120a1b8adacc8f"
@@ -89,7 +90,9 @@ class WeatherApp extends React.Component {
                 </div>
             );
         }else{
-            return (<div></div>)
+            return (
+                <StartScreen />
+            )
         }
     }
 }
