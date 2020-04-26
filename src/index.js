@@ -4,6 +4,7 @@ import WeatherTab from './components/WeatherTab'
 import WeatherChart from './components/WeatherChart'
 import WeatherIcon from './components/WeatherIcon'
 import StartScreen from './components/StartScreen'
+import Heart from './images/heart.svg'
 import './index.css';
 
 const appid = "c3e7f513320bbb800b120a1b8adacc8f"
@@ -85,6 +86,9 @@ class WeatherApp extends React.Component {
                     <div className="detailsContainer">
                         <div className="neu">
                             <WeatherChart series={this.state.hourly} />
+                        </div>
+                        <div className="footer">
+                            Created with <img src={Heart} style={{height: "1em", verticalAlign: "middle"}} /> by Shubhomoy
                         </div>
                     </div>
                 </div>

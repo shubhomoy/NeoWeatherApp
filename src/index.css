@@ -23,7 +23,7 @@
 }
 
 .blue {
-    color: 98C1D9;
+    color: #98C1D9;
 }
 
 .lightblue {
@@ -211,4 +211,12 @@ body{
     margin-top: 10px;
     font-family: 'Cabin-Regular', Fallback, sans-serif;
     font-size: 0.8em;
+}
+
+.footer {
+    font-size: 1.0em;
+    color: #3D5A80;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Cabin-Regular', Fallback, sans-serif;
 }
