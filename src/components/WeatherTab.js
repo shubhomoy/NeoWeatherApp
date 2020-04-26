@@ -40,7 +40,7 @@ class WeatherTab extends React.Component {
 
     render() {
     return (
-        <div className="neu tab">
+        <div className={ this.state.day == "Today" ? "neu neu-selected tab" : "neu tab"}>
             <div className="day">{this.state.day}</div>
             <div className="temp">{Math.trunc(this.state.forecast.temp.day)}&#176;</div>
             <div>
