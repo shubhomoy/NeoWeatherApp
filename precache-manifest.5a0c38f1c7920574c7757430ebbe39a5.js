@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6557f8e394005979c9c363bdc42d1e21",
+    "revision": "d59ef6f8cf6cb03cba31584ddffa2a4a",
     "url": "/NeoWeatherApp/index.html"
   },
   {
-    "revision": "ca1ccb389f0302f107ef",
-    "url": "/NeoWeatherApp/static/css/main.fe41c289.chunk.css"
+    "revision": "133cebb6c0d5946914a5",
+    "url": "/NeoWeatherApp/static/css/main.4964b4d8.chunk.css"
   },
   {
-    "revision": "a05f1b5535f7cbcd40d0",
-    "url": "/NeoWeatherApp/static/js/2.c016eff7.chunk.js"
+    "revision": "f9b757afe56e7c0c69f6",
+    "url": "/NeoWeatherApp/static/js/2.e93cca47.chunk.js"
   },
   {
     "revision": "7bb8316484c25b72cc2ad682be143713",
-    "url": "/NeoWeatherApp/static/js/2.c016eff7.chunk.js.LICENSE.txt"
+    "url": "/NeoWeatherApp/static/js/2.e93cca47.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca1ccb389f0302f107ef",
-    "url": "/NeoWeatherApp/static/js/main.a482e4b5.chunk.js"
+    "revision": "133cebb6c0d5946914a5",
+    "url": "/NeoWeatherApp/static/js/main.2b75874f.chunk.js"
   },
   {
     "revision": "b08b1c7a669d10735977",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NeoWeatherApp/static/media/Cabin-Medium.a2dea8db.ttf"
   },
   {
+    "revision": "46cdb38630e8f7ea5ee8519658ee51c5",
+    "url": "/NeoWeatherApp/static/media/Cabin-Regular.46cdb386.ttf"
+  },
+  {
     "revision": "c92ed59429995a46c5843f14ccc65b46",
     "url": "/NeoWeatherApp/static/media/Cabin-SemiBold.c92ed594.ttf"
+  },
+  {
+    "revision": "a8c98ef9a57c815f287ac8b56d0d65b9",
+    "url": "/NeoWeatherApp/static/media/Preloader_2.a8c98ef9.gif"
   },
   {
     "revision": "cfb1e955a2bc8de4cda78aca20d0a996",
