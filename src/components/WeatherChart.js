@@ -16,6 +16,9 @@ class WeatherChart extends React.Component {
                     type: 'line',
                     zoom: {
                         enabled: false
+                    },
+                    toolbar: {
+                        show: false
                     }
                 },
                 dataLabels: {
@@ -34,11 +37,21 @@ class WeatherChart extends React.Component {
                     },
                     axisTicks: {
                         show: false
+                    },
+                    axisBorder: {
+                        show: false
+                    },
+                    title: {
+                        text: ""
                     }
                 },
                 xaxis: {
+                    type: 'category',
                     show: false,
                     categories: ['Now', '11:00', '12:00', '13:00', '14:00', '15:00'],
+                    labels: {
+                        show: true
+                    }
                 },
                 grid: {
                     xaxis: {
